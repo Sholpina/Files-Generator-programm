@@ -8,7 +8,7 @@ import sys
 
 def press_it():
         with open("filename.xlsx", 'wb') as f:
-                f.write('This will be written to /some/dir/test.txt', f)
+                f.write('File', f)
 
 
 class MainWindow(qtw.QWidget):
